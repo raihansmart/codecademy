@@ -30,7 +30,7 @@ print("A 1kg bomb supplies " + str(bomb_energy) + " Joules.")
 #input mass, acceleration, force and distance
 def get_work(mass, acceleration, distance):
   #Opsi 1 -> force = get_force(mass, acceleration)
-  #Lanjutan Opsi 1 -> return force*distances
+  #Lanjutan Opsi 1 -> return force*distance
   force = get_force(mass, acceleration)
   return force*distance
   #Opsi 2 (instant)-> return get_force(mass, acceleration)*distance
