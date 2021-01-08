@@ -5,8 +5,7 @@ subjects.append("computer science")
 grades.append(100)
 
 gradebook = list(zip(subjects, grades))
-gradebook.append("visual arts")
-gradebook.append(93)
+gradebook.append(("visual arts", 93))
 print(gradebook)
 
 full_gradebook = last_semester_gradebook + gradebook
